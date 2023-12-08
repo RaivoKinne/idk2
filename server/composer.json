@@ -1,0 +1,17 @@
+{
+  "name": "raivo/server",
+  "description": "server",
+  "license": "MIT",
+  "scripts": {
+    "start": "php -S localhost:8080 -t src"
+  },
+  "autoload": {
+    "psr-4": {
+      "Raivo\\Server\\": "src/"
+    }
+  },
+  "config": {
+    "process-timeout": 3000000
+  },
+  "require": {}
+}
